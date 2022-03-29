@@ -1,0 +1,75 @@
+/* a minimalist set of CSS resets */
+
+/* default to border-box */
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+/* adjust typography defaults */
+body {
+  margin: 2rem;
+  font-family: helvetica, arial, sans-serif;
+  line-height: 1.5;
+  background-color: darkturquoise;
+  color: white; 
+}
+/* 'children class' of body created to modify the header font and background color */
+h1{
+  font-family: verdana, arial, sans-serif; 
+  background-color: steelblue;
+}
+/* 'children class' of body created to modify our button elements */
+button{
+  padding: 15px;
+  border-radius: 15px;
+  font-size: 14px;
+  background-color: deeppink;
+  color: white;
+}
+/* rule that targets all four of the game buttons*/
+#gameButtonArea > button {
+  width:200px;
+  height:200px;
+  margin:2px;
+}
+/* rule that hides any element that belongs to the HIDDEN CLASS*/
+.hidden {
+  display: none;
+}
+/*rules to individually style each of the four buttons to give them unique colors*/
+#button1 {
+    background: lightgreen;
+}
+#button2 {
+    background: lightblue;
+}
+#button3 {
+    background: pink;
+}
+#button4 {
+    background: lightyellow;
+}
+/*rules for changing colors when a button its clicked*/
+#button1:active {
+    background:green;
+}
+#button2:active {
+    background:blue;
+}
+#button3:active {
+    background:red;
+}
+#button4:active {
+    background:yellow;
+}
+/* images and videos max out at full width */
+img,
+video {
+  height: auto;
+  max-width: 100%;
+}
