@@ -47,17 +47,20 @@ https://stackoverflow.com/questions/36077773/comparing-equality-of-two-numbers-u
 https://www.w3schools.com/cssref/css_colors.asp
 
 2. What was a challenge you encountered in creating this submission (be specific)? How did you overcome it? (recommended 200 - 400 words) 
+
 While working on the project, the first obstacle that I encountered was that I had never used Glitch before, so at first, I had trouble understanding the interface and finding the project when I wanted to go back to it. I was having trouble locating where the project was. At first, it was a challenge to find the features that I needed, but then I started working on the tool and got used to it.
 Another challenge was when I had to insert more attributes for the button on the .html file. I overcame it by looking at previous projects I have worked on using the same and understood the structure of that part.
 Then I had another challenge when I was thinking of changing the color of the web page's background on the .css file. I did not know what other colors were available, so I tried putting colors that I liked the same way they were as instructed, it worked, and from there, I started changing the colors to every background and even the buttons' background.
 The last thing to complete for the project was a method for handling the user's guesses. This method was a challenge because the project required you to complete the implementation of the method with only the description of the method and the game logic. After analyzing both the description and the logic, I started by writing somewhere else the structure of the function, then wrote the pseudocode. Then I implemented the method, and this process took me 45min to complete.
 
 3. What questions about web development do you have after completing your submission? (recommended 100 - 300 words) 
+
 I would not know how to add more styling to the web page from the .css file, such as a background image. Do you recommend first adding the essential elements to the .html file and then moving to the styling?
 Is it possible to use two .js files for the same website? I wonder because I may want to have classes for each functionality. For example, in other programming languages, you can have nested classes (a class working inside another class/import).
 For modifying the sound of the music function? I remember using formulas to get musical notes from a device in a previous project.
 
 4. If you had a few more hours to work on this project, what would you spend them doing (for example: refactoring certain functions, adding additional features, etc). Be specific. (recommended 100 - 300 words) 
+
 If I had more hours to work on the project, I would like to include a large counter on the website that shows how many times the user has guessed correctly, and I would also like to have more numbers of clues to be able to display a high score for the current session of the game.
 Additionally, If I had a few more days, I would have modified the looks, for example, I would give it a retro design with buttons with neon borders, a better-looking heading, image background; and I would give the player the option for more modes, for example: classical, three tries lose, or if they want the buttons to play the tone much faster.
 
